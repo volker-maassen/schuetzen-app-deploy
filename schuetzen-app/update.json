@@ -1,8 +1,8 @@
 {
   "name": "Schützen-App",
   "slug": "schuetzen-app",
-  "version": "2.5.2",
-  "download_url": "https://www.maassen.de/my-plugins/schuetzen-app/schuetzen-app-2.5.2.zip",
+  "version": "2.5.3",
+  "download_url": "https://www.maassen.de/my-plugins/schuetzen-app/schuetzen-app-2.5.3.zip",
   "homepage": "https://www.maassen.de/",
   "author": "Volker Maaßen",
   "requires": "6.0",
