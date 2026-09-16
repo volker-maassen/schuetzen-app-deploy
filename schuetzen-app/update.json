@@ -1,8 +1,8 @@
 {
   "name": "Schützen-App",
   "slug": "schuetzen-app",
-  "version": "2.28.6",
-  "download_url": "https://raw.githubusercontent.com/volker-maassen/schuetzen-app-deploy/main/schuetzen-app/schuetzen-app-2.28.6.zip",
+  "version": "2.28.7",
+  "download_url": "https://raw.githubusercontent.com/volker-maassen/schuetzen-app-deploy/main/schuetzen-app/schuetzen-app-2.28.7.zip",
   "homepage": "https://www.maassen.de/",
   "author": "Volker Maaßen",
   "requires": "6.0",
