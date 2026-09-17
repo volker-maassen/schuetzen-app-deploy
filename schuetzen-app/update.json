@@ -1,13 +1,13 @@
 {
   "name": "Schützen-App",
   "slug": "schuetzen-app",
-  "version": "2.32.0",
-  "download_url": "https://raw.githubusercontent.com/volker-maassen/schuetzen-app-deploy/main/schuetzen-app/schuetzen-app-2.32.0.zip",
+  "version": "2.33.0",
+  "download_url": "https://raw.githubusercontent.com/volker-maassen/schuetzen-app-deploy/main/schuetzen-app/schuetzen-app-2.33.0.zip",
   "homepage": "https://www.maassen.de/",
   "author": "Volker Maaßen",
   "requires": "6.0",
   "tested": "6.8",
   "requires_php": "8.0",
   "description": "Schlanke Vereins-App für Termine, Nachrichten und Informationen.",
-  "changelog": "## 2.32.0\n- Termine können als Vereinsintern markiert werden. Der Hinweis erscheint in Card und Detailansicht oberhalb der übrigen Metadaten.\n- Die Kennzeichnung ist im Editor und in der Schnellbearbeitung verfügbar und bleibt bei Feed-Synchronisierungen erhalten.\n\n## 2.31.0\n- Startdatum, Enddatum und Ganztagestermin sind im Editor und in der Schnellbearbeitung pflegbar.\n- Termine können von Sammelkarten ausgeschlossen werden; Gruppen können für deren Kopfzeile priorisiert werden.\n- Sammelkarten entstehen nur noch aus eintägigen Ganztagsterminen ohne Uhrzeit.\n- iCal-Termine über sieben Kalendertage werden abgelehnt und mit Titel und Dauer im Quellenstatus benannt."
+  "changelog": "## 2.33.0\n- Eigenes JSON-Transferformat für Termine inklusive Meta-Informationen, Marschordnungen, Gruppen, Kalenderquellen und Blacklist-Daten.\n- Datenbereiche können beim Export und Import einzeln ausgewählt werden.\n- Private iCal-Adressen werden nur nach ausdrücklicher Auswahl exportiert; Benutzer, Passwörter und Rechte bleiben ausgeschlossen.\n- Vorhandene Inhalte werden über Transfer-Schlüssel aktualisiert statt dupliziert.\n\n## 2.32.0\n- Termine können als Vereinsintern markiert werden. Der Hinweis erscheint in Card und Detailansicht oberhalb der übrigen Metadaten.\n- Die Kennzeichnung ist im Editor und in der Schnellbearbeitung verfügbar und bleibt bei Feed-Synchronisierungen erhalten."
 }
