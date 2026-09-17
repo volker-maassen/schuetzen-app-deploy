@@ -1,13 +1,13 @@
 {
   "name": "Schützen-App",
   "slug": "schuetzen-app",
-  "version": "2.34.1",
-  "download_url": "https://raw.githubusercontent.com/volker-maassen/schuetzen-app-deploy/main/schuetzen-app/schuetzen-app-2.34.1.zip",
+  "version": "2.35.0",
+  "download_url": "https://raw.githubusercontent.com/volker-maassen/schuetzen-app-deploy/main/schuetzen-app/schuetzen-app-2.35.0.zip",
   "homepage": "https://www.maassen.de/",
   "author": "Volker Maaßen",
   "requires": "6.0",
   "tested": "6.8",
   "requires_php": "8.0",
   "description": "Schlanke Vereins-App für Termine, Nachrichten und Informationen.",
-  "changelog": "## 2.34.1\n- Exportformular korrigiert: Der zentrale JSON-Export übermittelt jetzt den erforderlichen WordPress-Nonce.\n\n## 2.34.0\n- Einstellungen, Termine inklusive Meta-Daten, Nachrichten, Infos, Personen, Marschordnungen, Gruppen, Kalenderquellen sowie Blacklist-Daten werden in einem gemeinsamen modularen JSON-Transfer gebündelt.\n- Private iCal-Adressen sind ein ausdrücklich optionaler Exportbestandteil; Benutzer, Passwörter, Rollen und Zugriffsrechte bleiben ausgeschlossen.\n- Medien werden als Referenzen übertragen; Kalenderquellen ohne URL werden beim Import übersprungen.\n\n## 2.33.0\n- Eigenes JSON-Transferformat für Termine inklusive Meta-Informationen, Marschordnungen, Gruppen, Kalenderquellen und Blacklist-Daten.\n- Datenbereiche können beim Export und Import einzeln ausgewählt werden."
+  "changelog": "## 2.35.0\n- Blacklisting als echte Terminverwaltung ergänzt: eigener Blacklist-Tab, einzelnes Blacklisting und Entsperren direkt in der Terminübersicht.\n- Titel-Regeln können für importierte Termine angelegt werden. Künftige passende Feed-Termine werden beim Synchronisieren übersprungen.\n- Blacklisted Termine werden aus dem Frontend entfernt und bleiben im Backend wiederherstellbar.\n\n## 2.34.1\n- Exportformular korrigiert: Der zentrale JSON-Export übermittelt jetzt den erforderlichen WordPress-Nonce.\n\n## 2.34.0\n- Einstellungen, Termine inklusive Meta-Daten, Nachrichten, Infos, Personen, Marschordnungen, Gruppen, Kalenderquellen sowie Blacklist-Daten werden in einem gemeinsamen modularen JSON-Transfer gebündelt.\n- Private iCal-Adressen sind ein ausdrücklich optionaler Exportbestandteil; Benutzer, Passwörter, Rollen und Zugriffsrechte bleiben ausgeschlossen.\n- Medien werden als Referenzen übertragen; Kalenderquellen ohne URL werden beim Import übersprungen."
 }
